@@ -1,0 +1,17 @@
+{
+  "name": "automaton-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Monorepo for Automaton project: shared UI and multiple websites.",
+  "scripts": {
+    "dev:ui-core": "pnpm --filter @automaton/ui-core dev",
+    "build:ui-core": "pnpm --filter @automaton/ui-core build"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=8"
+  }
+}
