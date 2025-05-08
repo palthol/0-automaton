@@ -1,0 +1,52 @@
+{
+    "compilerOptions": {
+      /* Base Options: Provided by 'typescript' */
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "target": "ES2022",
+      "allowJs": true,
+      "resolveJsonModule": true,
+      "moduleDetection": "force",
+      "isolatedModules": true,
+  
+      /* Strictness */
+      "strict": true,
+      "noUncheckedIndexedAccess": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "strictFunctionTypes": true,
+      "strictBindCallApply": true,
+      "strictPropertyInitialization": true,
+      "noImplicitThis": true,
+      "alwaysStrict": true,
+  
+      /* If transpiling with TypeScript: */
+      // "module": "ESNext", // Or "NodeNext" if primarily for Node.js environments
+      // "outDir": "dist",
+      // "sourceMap": true,
+  
+      /* If NOT transpiling with TypeScript: */
+      "module": "preserve", // Recommended with Vite and other modern bundlers
+      "noEmit": true, // Let the bundler (e.g., Vite) handle transpilation
+  
+      /* Alias & Module Resolution */
+      "moduleResolution": "bundler", // Or "NodeNext" or "Node16"
+      // "baseUrl": ".", // Set this if you plan to use "paths" for monorepo aliases from the root
+      // "paths": {
+      //   "@automaton/ui-core/*": ["packages/ui-core/src/*"],
+      //   "@automaton/theme-definitions/*": ["packages/theme-definitions/src/*"]
+      // },
+  
+      /* JSX Configuration */
+      "jsx": "react-jsx", // For React 17+ new JSX transform
+  
+      /* Linting */
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitReturns": true,
+      "noUnusedLocals": true, // Helps catch unused variables
+      "noUnusedParameters": true, // Helps catch unused function parameters
+      "forceConsistentCasingInFileNames": true
+    }
+    // "include": [], // Typically, 'include' and 'exclude' are defined in package-specific tsconfigs
+    // "exclude": ["node_modules"] // Common exclusion
+  }
